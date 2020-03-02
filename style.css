@@ -11,6 +11,27 @@ header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
+header {
+    margin-bottom: 5px;
+
+}
+
+article {
+    order: 1;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    float: left;
+}
+section {
+    padding-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
 article {
     color: #ebebeb;
     background: #777;
@@ -25,8 +46,12 @@ section {
     width: 495px;
 }
 
-/*
-aside {
-    float: right;
+footer {
+    align-items: flex-end;
+
 }
-*/
+
+aside {
+    justify-content: flex-end;
+    
+}
